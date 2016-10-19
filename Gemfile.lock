@@ -1,0 +1,35 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    browserstack-local (0.1.1)
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    ffi (1.9.10)
+    mime-types (2.0)
+    parallel (0.9.1)
+    parallel_tests (2.5.0)
+      parallel
+    power_assert (0.2.6)
+    rake (10.4.2)
+    rubyzip (1.2.0)
+    selenium-webdriver (2.53.3)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    test-unit (3.1.5)
+      power_assert
+    websocket (1.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  browserstack-local
+  mime-types (~> 2.0)
+  parallel_tests
+  rake
+  selenium-webdriver
+  test-unit
+
+BUNDLED WITH
+   1.12.5
